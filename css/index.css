@@ -1,0 +1,52 @@
+body{
+    background-image: url('../assets/mercado.jpg');
+}
+
+header {
+    opacity: 90%;
+    text-align: center;
+    color: #fbfbfb;
+    background: #1f9358;
+    padding: 20px 0;
+    font-size: 80px;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#indexcadastro{
+    width: 450px;
+    height: 500px;
+    border-radius: 60px;
+    margin-top: 150px;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: arial;
+}
+
+.cadastro {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.cadastro a {
+    color: #333533;
+    text-decoration: none;
+}
+
+button {
+    border-radius: 60px;
+    opacity: 85%;
+    border: 1px solid #ffffff;
+    font-size: 40px;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 0 630px 80px;
+    padding: 40px 45px;
+    width: 110%;
+}
