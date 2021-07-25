@@ -23,3 +23,7 @@ Criação de um sistema para inventário de produtos e dados de clientes.
 * HTML
 * CSS
 * JavaScript
+
+
+#### 🔗[Link para o site do sistema](https://gama-supermercado.netlify.app/)
+#### 🔗[Link para Linkedin](https://www.linkedin.com/in/carolinamartinsfreitas/)
