@@ -1,7 +1,7 @@
 form {
     opacity: 85%;
     width: 500px;
-    height: 610px;
+    height: 630px;
     border-radius: 70px;
     background-color: #ffffff;
     padding: 50px;
@@ -11,7 +11,7 @@ form {
 }
 
 input[type=text] {
-    border: 1px solid black;
+    border: 1px solid rgb(165, 165, 165);
 }
 
 form label {
@@ -24,21 +24,33 @@ form label {
 form input {
     font-size: 25px;
     font-family: arial;
+    border-radius: 20px;
     display: block;
     margin: 0 0 30px;
     padding: 20px 25px;
     width: 80%;
 }
 
-input[type="submit"] {
+button {
+    opacity: 95%;
+    padding: 0px;
     font-size: 30px;
     background-color: #1f9358;
     color: #fbfbfb;
     font-family: 'Arial';
     font-weight: bold;
     border: none;
-    width: 50%;
-    margin: 40px 110px 50px;
+    width: 60%;
+    height: 80px;
+    margin: 40px 80px 50px;
+    transition: ease-out 0.2s;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 75%;
+    color: black; 
 }
 
 #form-text {

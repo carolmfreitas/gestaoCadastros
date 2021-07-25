@@ -40,13 +40,22 @@ header {
 button {
     border-radius: 60px;
     opacity: 85%;
-    border: 1px solid #ffffff;
+    border: 1px solid #fbfbfb;
     font-size: 40px;
     font-family: arial;
     text-decoration: none;
     font-weight: bold;
     display: block;
-    margin: 0 630px 80px;
+    margin: 0 620px 70px;
     padding: 40px 45px;
     width: 110%;
+    transition: ease-out 0.2s;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 85%;
+    background-color: #1f9358;
+    border: none;
 }
